@@ -148,7 +148,7 @@ if($AfterDate -eq $null) {
 }
 
 if($MaxDelete -eq 0) {
-    $MaxDelete = 1000  # this is the max that can be deleted at a time
+    $MaxDelete = 1000  # default imposed by imap library
 }
 
 $afterDateStr = $($AfterDate.ToString("MM/dd/yyyy")) 
