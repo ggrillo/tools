@@ -1,0 +1,10 @@
+{
+    "ImapDll":"full path to library:  ChilkatDotNet47.dll",
+    "Port":993,
+    "Ssl":"True",
+    "ImapServer":"<server name here, ie: imap.mail.yahoo.com>",
+    "UserEmail":"<user email>",
+    "AppPassword":"<app password>",
+    "Mailbox":"<mailbox name, ie: Inbox>"
+}
+  
